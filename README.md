@@ -1,1 +1,99 @@
 git commit -m "Initial commit"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <img src="p.png" alt="img">
+ <div id="all">
+    
+      <div class="ti">
+        <strong> Examination:</strong>
+        
+          <select id="st">
+            
+          <option>HSC/Alim/Equivalent</option>
+          <option>JSX/JDC</option>
+          <option>SSC/Dakhil</option>
+          <option>SCC(Vocational)</option>
+        
+   
+        </select>
+   
+        
+
+      </div><br>
+      
+      <div class="ti">
+        <strong>Year:</strong>
+        
+          
+         <select id="nd">
+          <option>Select one</option>
+          <option>2024</option>
+          <option>2023</option>
+          <option>2022</option>
+   
+        </select>
+   
+
+      </div><br>
+      
+      
+      <div class="ti">
+        <strong>Board:</strong>
+ 
+          
+                  <select id="rd">
+                    <option>Select one</option>
+                    <option>Rajshahi</option>
+                    <option>Dinajpur</option>
+                    <option>Dhaka</option>
+          
+                  </select>
+       
+
+   
+      </div>
+      <br>
+      <div>
+        
+      
+        <strong>Roll:</strong>
+        
+ 
+        <input type="text" id="ath">
+        
+      </div> 
+      <br>
+      <div>
+        <strong>Reg:No:</strong>
+        <input type="text" id="bth">
+      </div>
+      <br>
+      <div>
+        <strong>2+2=</strong>
+        <input type="text" id="math">
+      </div>
+      <br>
+   
+      <button id="reset">Reset</button>
+      <button id="submit">Submit</button>
+   
+    
+ </div>
+
+</body>
+</html>
